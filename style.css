@@ -1,0 +1,60 @@
+body {
+    background: gray;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+}
+div.post img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+div.contenedor{
+    width: 640px;
+    margin: auto;
+}
+.left {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.right{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+p,h6 {
+    margin: 0;
+}
+.left-f {
+    display: flex;
+    margin-left: 15px;
+}
+.right-f{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
